@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>测试</title>
+<link rel="stylesheet" type="text/css" href="js/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="js/video-js/video-js.css">
+<link rel="stylesheet" type="text/css" href="/css/awesome/css/font-awesome.min.css">
+<!-- 	video插件（必须） -->
+<link rel="stylesheet" type="text/css" href="js/play/play.css">
+</head>
+<body style="padding: 15px;">
+	<h4 style="text-align: center;">
+		多路播放测试<a style="margin-left: 15px; cursor: pointer;"
+			onclick="openModal()">点击添加</a>
+	</h4>
+	<div id="multiPlayDiv"></div>
+
+
+
+	<div class="modal fade" id="videoConfigModal" tabindex="-1"
+		role="dialog" aria-labelledby="videoConfigLabel" aria-hidden="true">
+		<div class="modal-dialog" style="width: 700px">
+			<div class="modal-content" style="border-radius: 0px;">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="videoConfigLabel">设置参数</h4>
+				</div>
+				<div class="modal-body">
+
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							<label for="rtspUrl" class="col-sm-2 control-label">名字</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="rtspUrl"
+									placeholder="请输入rtsp"
+									value="rtsp://192.168.0.167:554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="rtspName" class="col-sm-2 control-label">名字</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="rtspName"
+									placeholder="请输入用户名" value="admin">
+							</div>
+						</div>
+
+
+						<div class="form-group">
+							<label for="rtspPassword" class="col-sm-2 control-label">密码</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="rtspPassword"
+									placeholder="请输入密码" value="yzfar123">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="decodType" class="col-sm-2 control-label">解码方式</label>
+							<div class="col-sm-10">
+								<select class="form-control" id="decodType">
+									<option value="0">CPU</option>
+									<option value="1">QSV</option>
+									<option value="2">CUDA</option>
+								</select>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<a type="submit" class="btn btn-default"
+									onclick="appendAndPlay()">添加</a>
+							</div>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 	base -->
+	<!-- 	jquery为必须插件 -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- 	video插件（必须） -->
+	<script src="js/video-js/video.min.js"></script>
+	<script type="text/javascript" src="/js/jsmpeg.min.js"></script>
+	<script type="text/javascript" src="/js/ckplayer/ckplayer.js"></script>
+	<script type="text/javascript" src="/js/play/play.js"></script>
+	
+	<!-- 	app(演示) -->
+	<script type="text/javascript" src="/app/multiPlay.js"></script>
+</body>
+</html>

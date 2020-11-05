@@ -1,0 +1,87 @@
+Manifest-Version: 1.0
+Implementation-Title: video-center
+Implementation-Version: 0.0.1-SNAPSHOT
+Class-Path: lib/video-common-0.0.1-SNAPSHOT.jar lib/spring-cloud-start
+ er-netflix-eureka-server-2.2.5.RELEASE.jar lib/spring-cloud-starter-2
+ .2.5.RELEASE.jar lib/spring-security-rsa-1.0.9.RELEASE.jar lib/bcpkix
+ -jdk15on-1.59.jar lib/bcprov-jdk15on-1.59.jar lib/spring-cloud-netfli
+ x-eureka-server-2.2.5.RELEASE.jar lib/spring-boot-starter-freemarker-
+ 2.3.3.RELEASE.jar lib/freemarker-2.3.30.jar lib/spring-context-suppor
+ t-5.2.8.RELEASE.jar lib/jersey-servlet-1.19.1.jar lib/jersey-server-1
+ .19.1.jar lib/jersey-client-1.19.1.jar lib/archaius-core-0.7.6.jar li
+ b/jsr305-3.0.2.jar lib/javax.inject-1.jar lib/jackson-dataformat-xml-
+ 2.11.2.jar lib/jackson-module-jaxb-annotations-2.11.2.jar lib/jakarta
+ .activation-api-1.2.2.jar lib/stax2-api-4.2.1.jar lib/spring-cloud-st
+ arter-netflix-archaius-2.2.5.RELEASE.jar lib/spring-cloud-netflix-arc
+ haius-2.2.5.RELEASE.jar lib/commons-configuration-1.8.jar lib/spring-
+ cloud-starter-loadbalancer-2.2.5.RELEASE.jar lib/spring-cloud-loadbal
+ ancer-2.2.5.RELEASE.jar lib/spring-boot-starter-validation-2.3.3.RELE
+ ASE.jar lib/hibernate-validator-6.1.5.Final.jar lib/jakarta.validatio
+ n-api-2.0.2.jar lib/jboss-logging-3.4.1.Final.jar lib/classmate-1.5.1
+ .jar lib/reactor-core-3.3.9.RELEASE.jar lib/reactor-extra-3.3.3.RELEA
+ SE.jar lib/spring-boot-starter-cache-2.3.3.RELEASE.jar lib/evictor-1.
+ 0.0.jar lib/ribbon-eureka-2.3.0.jar lib/slf4j-api-1.7.30.jar lib/jaxb
+ -runtime-2.3.3.jar lib/jakarta.xml.bind-api-2.3.3.jar lib/txw2-2.3.3.
+ jar lib/istack-commons-runtime-3.0.11.jar lib/jakarta.activation-1.2.
+ 2.jar lib/spring-cloud-starter-netflix-eureka-client-2.2.5.RELEASE.ja
+ r lib/spring-cloud-netflix-hystrix-2.2.5.RELEASE.jar lib/spring-boot-
+ starter-aop-2.3.3.RELEASE.jar lib/aspectjweaver-1.9.6.jar lib/spring-
+ cloud-netflix-eureka-client-2.2.5.RELEASE.jar lib/eureka-client-1.9.2
+ 5.jar lib/jettison-1.2.jar lib/stax-api-1.0.1.jar lib/netflix-eventbu
+ s-0.3.0.jar lib/netflix-infix-0.3.0.jar lib/commons-jxpath-1.3.jar li
+ b/joda-time-2.9.9.jar lib/antlr-runtime-3.4.jar lib/stringtemplate-3.
+ 2.1.jar lib/antlr-2.7.7.jar lib/gson-2.8.6.jar lib/commons-math-2.2.j
+ ar lib/jsr311-api-1.1.1.jar lib/servo-core-0.12.21.jar lib/jersey-cor
+ e-1.19.1.jar lib/jersey-apache-client4-1.19.1.jar lib/guice-3.0.jar l
+ ib/aopalliance-1.0.jar lib/jackson-core-2.11.2.jar lib/eureka-core-1.
+ 9.25.jar lib/woodstox-core-5.0.3.jar lib/xstream-1.4.11.1.jar lib/xml
+ pull-1.1.3.1.jar lib/xpp3_min-1.1.4c.jar lib/spring-boot-starter-web-
+ 2.3.3.RELEASE.jar lib/spring-boot-starter-2.3.3.RELEASE.jar lib/sprin
+ g-boot-starter-logging-2.3.3.RELEASE.jar lib/logback-classic-1.2.3.ja
+ r lib/logback-core-1.2.3.jar lib/log4j-to-slf4j-2.13.3.jar lib/log4j-
+ api-2.13.3.jar lib/jul-to-slf4j-1.7.30.jar lib/jakarta.annotation-api
+ -1.3.5.jar lib/spring-core-5.2.8.RELEASE.jar lib/spring-jcl-5.2.8.REL
+ EASE.jar lib/snakeyaml-1.26.jar lib/spring-boot-starter-json-2.3.3.RE
+ LEASE.jar lib/jackson-datatype-jdk8-2.11.2.jar lib/jackson-datatype-j
+ sr310-2.11.2.jar lib/jackson-module-parameter-names-2.11.2.jar lib/sp
+ ring-boot-starter-tomcat-2.3.3.RELEASE.jar lib/tomcat-embed-core-9.0.
+ 37.jar lib/jakarta.el-3.0.3.jar lib/tomcat-embed-websocket-9.0.37.jar
+  lib/spring-web-5.2.8.RELEASE.jar lib/spring-beans-5.2.8.RELEASE.jar 
+ lib/spring-webmvc-5.2.8.RELEASE.jar lib/spring-aop-5.2.8.RELEASE.jar 
+ lib/spring-context-5.2.8.RELEASE.jar lib/spring-expression-5.2.8.RELE
+ ASE.jar lib/spring-boot-starter-websocket-2.3.3.RELEASE.jar lib/sprin
+ g-messaging-5.2.8.RELEASE.jar lib/spring-websocket-5.2.8.RELEASE.jar 
+ lib/spring-boot-starter-thymeleaf-2.3.3.RELEASE.jar lib/thymeleaf-spr
+ ing5-3.0.11.RELEASE.jar lib/thymeleaf-3.0.11.RELEASE.jar lib/attopars
+ er-2.0.5.RELEASE.jar lib/unbescape-1.1.6.RELEASE.jar lib/thymeleaf-ex
+ tras-java8time-3.0.4.RELEASE.jar lib/spring-cloud-config-client-2.2.5
+ .RELEASE.jar lib/spring-boot-autoconfigure-2.3.3.RELEASE.jar lib/spri
+ ng-cloud-commons-2.2.5.RELEASE.jar lib/spring-security-crypto-5.3.4.R
+ ELEASE.jar lib/spring-cloud-context-2.2.5.RELEASE.jar lib/jackson-ann
+ otations-2.11.2.jar lib/jackson-databind-2.11.2.jar lib/httpclient-4.
+ 5.12.jar lib/httpcore-4.4.13.jar lib/commons-codec-1.14.jar lib/sprin
+ g-boot-starter-actuator-2.3.3.RELEASE.jar lib/spring-boot-actuator-au
+ toconfigure-2.3.3.RELEASE.jar lib/spring-boot-actuator-2.3.3.RELEASE.
+ jar lib/micrometer-core-1.5.4.jar lib/HdrHistogram-2.1.12.jar lib/Lat
+ encyUtils-2.0.3.jar lib/spring-boot-devtools-2.3.3.RELEASE.jar lib/sp
+ ring-boot-2.3.3.RELEASE.jar lib/spring-cloud-starter-netflix-ribbon-2
+ .2.5.RELEASE.jar lib/spring-cloud-netflix-ribbon-2.2.5.RELEASE.jar li
+ b/ribbon-2.3.0.jar lib/ribbon-transport-2.3.0.jar lib/rxnetty-context
+ s-0.4.9.jar lib/rxnetty-servo-0.4.9.jar lib/hystrix-core-1.5.18.jar l
+ ib/rxnetty-0.4.9.jar lib/guava-29.0-jre.jar lib/failureaccess-1.0.1.j
+ ar lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+  lib/checker-qual-2.11.1.jar lib/error_prone_annotations-2.3.4.jar li
+ b/j2objc-annotations-1.3.jar lib/ribbon-core-2.3.0.jar lib/commons-la
+ ng-2.6.jar lib/ribbon-httpclient-2.3.0.jar lib/commons-collections-3.
+ 2.2.jar lib/netflix-commons-util-0.3.0.jar lib/ribbon-loadbalancer-2.
+ 3.0.jar lib/netflix-statistics-0.1.1.jar lib/rxjava-1.3.8.jar lib/spr
+ ing-cloud-starter-hystrix-1.4.7.RELEASE.jar lib/spring-cloud-starter-
+ netflix-hystrix-2.2.5.RELEASE.jar lib/hystrix-serialization-1.5.18.ja
+ r lib/jackson-module-afterburner-2.11.2.jar lib/hystrix-metrics-event
+ -stream-1.5.18.jar lib/hystrix-javanica-1.5.18.jar lib/commons-lang3-
+ 3.10.jar lib/asm-5.0.4.jar lib/rxjava-reactive-streams-1.2.1.jar lib/
+ reactive-streams-1.0.3.jar lib/fastjson-1.2.45.jar
+Build-Jdk-Spec: 1.8
+Created-By: Maven Integration for Eclipse
+Main-Class: com.ops.www.VideoCenterApplication
+

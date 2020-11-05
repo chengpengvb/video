@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>测试</title>
+<link rel="stylesheet" type="text/css" href="js/video-js/video-js.css">
+<link rel="stylesheet" type="text/css" href="js/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/css/awesome/css/font-awesome.min.css">
+<!-- 	video插件（必须） -->
+<link rel="stylesheet" type="text/css" href="js/play/play.css">
+
+</head>
+<body style="padding: 5%;">
+	<h4 style="text-align: center;">测试</h4>
+	<div class="container ">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<label class="col-sm-2 control-label">RTSP</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" placeholder="请输入URL"
+								id="rtsp"
+								value="rtsp://192.168.0.167:554/cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-sm-2 control-label">用户名</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" placeholder="请输入用户名"
+								id="userName" value="admin">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-2 control-label">密码</label>
+						<div class="col-sm-10">
+							<input type="password" class="form-control" placeholder="请输入密码"
+								value="yzfar123" id="passWord" autocomplete="new-password">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<a class="btn btn-default" onclick="videoPlay()">播放</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="modal fade" id="videoPlayModal" tabindex="-1" role="dialog"
+		aria-labelledby="videoModalLabel" aria-hidden="true">
+		<div class="modal-dialog" style="width: 802px">
+			<div class="modal-content" style="border-radius: 0px; height: 653px;">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="videoModalLabel"></h4>
+				</div>
+				<div class="modal-body" style="padding: 0px">
+					<div id="videoDiv" style="width: 800px; height: 600px">
+					
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 	base -->
+	<!-- 	jquery为必须插件 -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- 	video插件（必须） -->
+	<script type="text/javascript" src="/js/jsmpeg.min.js"></script>
+	<script type="text/javascript" src="/js/ckplayer/ckplayer.js"></script>
+	<script type="text/javascript" src="/js/play/play.js"></script>
+
+	<!-- 	app(演示) -->
+	<script type="text/javascript" src="/app/default.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+logging:
+  file:
+    path: src/main/resources/logging/
+  level:
+    com.netflix: warn
+server:
+  port: 9999 
+spring:
+  application:
+    name: video-eureka 
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:9999/eureka/ 
+  server:
+    eviction-interval-timer-in-ms: 4000 
+    enable-self-preservation: false 
+    renewal-percent-threshold: 0.9 

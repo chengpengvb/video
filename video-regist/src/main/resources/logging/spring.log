@@ -1,0 +1,33 @@
+2020-11-05 10:27:04.781  INFO 21172 --- [main] com.ops.www.VideoRegistApplication       : No active profile set, falling back to default profiles: default
+2020-11-05 10:27:05.683  WARN 21172 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-11-05 10:27:05.817  INFO 21172 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2f77693a-57b7-369e-bf92-6673dbb20cee
+2020-11-05 10:27:06.229  INFO 21172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2020-11-05 10:27:06.241  INFO 21172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-05 10:27:06.242  INFO 21172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-11-05 10:27:06.348  INFO 21172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-05 10:27:06.348  INFO 21172 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1549 ms
+2020-11-05 10:27:06.511  WARN 21172 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-05 10:27:06.876  INFO 21172 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2020-11-05 10:27:07.446  WARN 21172 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-11-05 10:27:07.742  INFO 21172 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-05 10:27:08.277  INFO 21172 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2020-11-05 10:27:08.320  WARN 21172 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-11-05 10:27:08.378  INFO 21172 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-11-05 10:27:08.814  INFO 21172 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-11-05 10:27:08.838  INFO 21172 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application VIDEO-EUREKA with eureka with status UP
+2020-11-05 10:27:08.841  INFO 21172 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2020-11-05 10:27:08.842  INFO 21172 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-11-05 10:27:08.843  INFO 21172 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2020-11-05 10:27:08.854  INFO 21172 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2020-11-05 10:27:08.854  INFO 21172 --- [Thread-11] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2020-11-05 10:27:08.875  INFO 21172 --- [Thread-11] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2020-11-05 10:27:08.894  INFO 21172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2020-11-05 10:27:08.897  INFO 21172 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9999
+2020-11-05 10:27:08.984  INFO 21172 --- [main] com.ops.www.VideoRegistApplication       : Started VideoRegistApplication in 5.374 seconds (JVM running for 5.823)
+2020-11-05 10:27:08.994  INFO 21172 --- [main] com.ops.www.VideoRegistApplication       : 
+****************************************************************************************************
+*                                  Video-Regist startUp in 5.55s                                   *
+****************************************************************************************************
+2020-11-05 10:27:37.326  INFO 21172 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-05 10:27:37.327  INFO 21172 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-05 10:27:37.354  INFO 21172 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms

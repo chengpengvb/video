@@ -1,0 +1,89 @@
+.play_tools {
+	background: #00000073;
+	width: 100%;
+	height: 26px;
+	position: relative;
+	bottom: 31px;
+}
+
+.play_tools i {
+	line-height: 26px;
+	color: white;
+	cursor: pointer;
+}
+
+.v-play {
+	text-align: left;
+	padding-left: 10px;
+	float: left;
+	width: 50%;
+}
+
+.v-full {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.v-voice {
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+
+.v-v-add {
+	margin-right: 25px;
+}
+
+.v-v-sub {
+	margin-right: 14px;
+}
+
+.v-voice label {
+	color: #ffffff;
+	margin-right: 14px;
+}
+
+.v-v-mute {
+	margin-right: 15px;
+}
+
+.row {
+	padding: 0px;
+	margin: 0px;
+}
+
+.sp {
+	height: 285px;
+}
+.video-js .vjs-big-play-button{
+    font-size: 2.5em;
+    line-height: 2.3em;
+    height: 2.5em;
+    width: 2.5em;
+    -webkit-border-radius: 2.5em;
+    -moz-border-radius: 2.5em;
+    border-radius: 2.5em;
+    background-color: #73859f;
+    background-color: rgba(115,133,159,.5);
+    border-width: 0.15em;
+    margin-top: -1.25em;
+    margin-left: -1.75em;
+}
+/* 中间的播放箭头 */
+.vjs-big-play-button .vjs-icon-placeholder {
+    font-size: 1.63em;
+}
+/* 加载圆圈 */
+.vjs-loading-spinner {
+    font-size: 2.5em;
+    width: 2em;
+    height: 2em;
+    border-radius: 1em;
+    margin-top: -1em;
+    margin-left: -1.5em;
+}
+/* .v-voice-loader { */
+/* 	background-image: url(loader.gif); */
+/* 	background-repeat: no-repeat; */
+/* 	background-position: center; */
+/* } */

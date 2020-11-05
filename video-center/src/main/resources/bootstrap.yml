@@ -1,0 +1,25 @@
+logging:
+  file:    path: src/main/resources/logging/
+management:
+  endpoints:
+    web:
+      base-path: /actuator/info
+server:
+  port: 8080
+#  ssl:
+#    key-store: src/main/resources/keystore.p12
+#    key-store-password: 123456
+#    keyStoreType: PKCS12
+#    keyAlias: tomcat
+spring:
+  profiles:
+    active: dev 
+  application:
+    name: video-center
+    
+eureka:
+  instance:
+    prefer-ip-address: true 
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9999/eureka/ 

@@ -1,0 +1,38 @@
+logging:
+  file:
+    path: src/main/resources/logging/
+host: 127.0.0.1
+system:
+#  ssl: true #是否开启ssl
+  ffmpeg: 
+    timeOut: 3
+  play:
+    service:
+      port: 8081
+    ws:
+      ip: 127.0.0.1
+      port: 8082
+      secret: supersecret
+    rtmp:
+      ip: 127.0.0.1
+      port: 1935
+      handle: live
+
+management:
+  endpoints:
+    web:
+      base-path: /actuator/info
+server:
+  port: 9998
+spring:
+  profiles:
+    active: dev 
+  application:
+    name: video-agent
+    
+eureka:
+  instance:
+    prefer-ip-address: true 
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9999/eureka/ 
