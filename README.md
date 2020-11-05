@@ -9,3 +9,4 @@
 <ol>7.配置相关参数</ol>
 <ol>8.然后启动video-regist ->video-agent -> video-center</ol>
 </ul>
+<img src="play.png">
